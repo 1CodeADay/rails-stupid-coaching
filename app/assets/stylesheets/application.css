@@ -1,0 +1,88 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+ body {
+  width: 600px;
+  margin: auto;
+ }
+
+h1 {
+
+  margin-top: 30px;
+}
+
+
+.question {
+  flex-direction: column;
+  border-left: 6px solid grey;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 36px;
+  padding: 50px 20px;
+  font-size: 18px;
+  background-color: rgba(241, 239, 239, 0.4);
+
+}
+
+
+.answer {
+  flex-direction: column;
+  border-left: 6px solid grey;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 36px;
+  background: #ffff002b;
+  padding: 50px 20px;
+  font-size: 18px;
+  margin-bottom: 36px;
+}
+
+#coach, #you {
+  margin-bottom: 0;
+}
+/* #link {
+  text-decoration: none;
+} */
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+.form-control {
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+  margin-left: none;
+  padding-right: 0;
+  width: 450px;
+}
+
+.btn-primary {
+  border-radius: 0 4px 4px 0;
+}
